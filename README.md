@@ -8,8 +8,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
 <strong>Exemplo de from e to</strong>
 
-ˋˋˋ 
-public class RotaPedidos {
+ˋˋˋ public class RotaPedidos {
 
 	public static void main(String[] args) throws Exception {
 
@@ -33,7 +32,7 @@ public class RotaPedidos {
 		});
 	}	
 }
-ˋˋˋ
+ˋˋˋ 
 
 <p align="justify">Um dos princípios fundamentais do Camel é que ele não determina o tipo de dado que precisa ser transacionado. Este alto nível de abstração facilita a interação com vários sistemas porque aproveita-se a mesma API, independentemente do protocolo ou tipo de dado utilizado.</p>
 
