@@ -9,7 +9,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 #### Exemplo de FROM(Origem) e TO(Destino)
 
  ```java   				
-    from("file:pedidos"). // a origem de onde o Apache Camel irá buscar os dados
+    from("file:pedidos?noop=true"). // a origem de onde o Apache Camel irá buscar os dados
     to("file:saida"); // o destino o qual após ele ser processado ele irá nos dar a saída, neste caso, estou fazendo uma transferência de arquivo. 									                      
 ```
 
@@ -32,7 +32,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
     			@Override
     			public void configure() throws Exception {
     				
-    				from("file:pedidos").
+    				from("file:pedidos?noop=true").
     				to("file:saida");
     				
     			}
