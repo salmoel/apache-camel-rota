@@ -10,7 +10,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
  ```java   				
     from("file:pedidos"). // a origem de onde o Apache Camel irá buscar os dados
-    to("file:saida"); // o destino o qual após ele ser processado ele irá nos dar a saída, neste caso, estou fazendo uma 									                            transferência de arquivo.
+    to("file:saida"); // o destino o qual após ele ser processado ele irá nos dar a saída, neste caso, estou fazendo uma transferência de arquivo. 									                      
 ```
 
 <p align="justify">Um dos princípios fundamentais do Camel é que ele não determina o tipo de dado que precisa ser transacionado. Este alto nível de abstração facilita a interação com vários sistemas porque aproveita-se a mesma API, independentemente do protocolo ou tipo de dado utilizado.</p>
