@@ -4,7 +4,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 </br>
 
 1. Sobre o Apache Camel
-<p align="justify">Essencialmente, o Apache Camel é um roteador (routing engine), ou seja o **Camel roteia os dados entre dois endpoints**. Cabe ao programador definir a <b>origem dos dados (from)</b>, o <b>seu destino (to)</b>, e <b>a forma com a qual ele será processado (mediation engine)</b>.</p>
+<p align="justify">Essencialmente, o Apache Camel é um roteador (routing engine), ou seja o <b>Camel roteia os dados entre dois endpoints</b>. Cabe ao programador definir a <b>origem dos dados (from)</b>, o <b>seu destino (to)</b>, e <b>a forma com a qual ele será processado (mediation engine)</b>.</p>
 
 #### Exemplo de FROM(Origem) e TO(Destino)
 
@@ -41,4 +41,4 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 > O Camel é uma máquina de roteamento, onde você fala de onde vêm os dados e para onde vão e ele faz alguma coisa no meio. Camel é uma biblioteca em que você pode utilizar standalone, ou seja, separado, ou integrar com algum projeto existente.
 </br>
 2. Utilizando a Camel DSL
-<p align="justify">A domain-specific language (DSL) do Camel suporta linguagens como *Java, Scala, Groovy* e também *permite que regras de roteamento sejam especificadas em XML*. O objetivo da *DSL é permitir que o desenvolvedor se concentre no negócio e não na ferramenta de integração*.</p>
+<p align="justify">A domain-specific language (DSL) do <b>Camel suporta</b> linguagens como <b>Java, Scala, Groovy</b> e também <b>permite que regras de roteamento sejam especificadas em XML.</b> O objetivo da <b>DSL é permitir que o desenvolvedor se concentre no negócio e não na ferramenta de integração</b>.</p>
