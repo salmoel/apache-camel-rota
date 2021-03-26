@@ -44,4 +44,4 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
     	}	
     }
 
-<p align="justify">Dentro do método configure é a onde deve ser implementada toda lógica da rota com base nos métodos from() e to(). Ao executar o método main, os arquivos do diretório pedidos serão transferidos para o diretório saída.</p>
+<p align="justify">Dentro do método configure é a onde deve ser implementada toda lógica da rota com base nos métodos from() e to(). Ao executar o método main, os arquivos do diretório <b>pedidos</b> serão transferidos para o diretório <b>saida</b>.</p>
