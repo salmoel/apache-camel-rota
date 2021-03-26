@@ -36,3 +36,6 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
 <p align="justify">Um dos princípios fundamentais do Camel é que ele não determina o tipo de dado que precisa ser transacionado. Este alto nível de abstração facilita a interação com vários sistemas porque aproveita-se a mesma API, independentemente do protocolo ou tipo de dado utilizado.</p>
 
+#### Um resumão do que é o Camel é:
+
+> O Camel é uma máquina de roteamento, onde você fala de onde vêm os dados e para onde vão e ele faz alguma coisa no meio. Camel é uma biblioteca em que você pode utilizar standalone, ou seja, separado, ou integrar com algum projeto existente.
