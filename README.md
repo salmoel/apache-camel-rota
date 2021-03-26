@@ -41,3 +41,4 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 > O Camel é uma máquina de roteamento, onde você fala de onde vêm os dados e para onde vão e ele faz alguma coisa no meio. Camel é uma biblioteca em que você pode utilizar standalone, ou seja, separado, ou integrar com algum projeto existente.
 </br>
 2. Utilizando a Camel DSL
+<p align="justify">A domain-specific language (DSL) do Camel suporta linguagens como Java, Scala, Groovy e também permite que regras de roteamento sejam especificadas em XML. O objetivo da DSL é permitir que o desenvolvedor se concentre no negócio e não na ferramenta de integração.</p>
