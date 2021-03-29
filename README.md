@@ -49,7 +49,6 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
 #### Rotas
 <p align="justify">No Camel, as rotas interligam os endpoints determinados pelos métodos <b>from()</b> e <b>to()</b>, sendo origem e o destino, respectivamente. O paramêtro desses metódos são fornecidos atráves de URIs de acordo com o componente usado.</p>
-</br>
 
 #### URI
 <p align="justify">Identificador de Recursos Universal, como diz o próprio nome, é o identificador do recurso. Pode ser uma imagem, uma página, etc, pois tudo o que está disponível na internet precisa de um identificador único para que não seja confundido.</p>
