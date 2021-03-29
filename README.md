@@ -61,6 +61,7 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
 <li><strong>noop=true: opção (busca os arquivos do diretório e não os apaga durante o processo)</strong></li>
 
+
 <p align="justify">Todas as URIs seguem o mesmo template: <b>componente:parametros?opções</b>. O primeiro elemente vai ser o responsável de referência o componente o qual estamos usando para podermos ler os dados na entrada da rota, e com base nas especificaçoes dele, são definidos os parâmetros e as opções.</p>
 
 
