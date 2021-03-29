@@ -55,7 +55,13 @@ Repositório destinado para o estudo sobre Apache Camel e construção de rotas.
 
 <p align="justify">Vamos usar o exemplo em nosso exemplo de como está acontecendo essa mágica da URI, beleza?! Utilizando como parâmetro do método <b>from()</b> do Bloco 1, podemos ver a seguinte estrutura:</p>
 
+<strong>file: componente do próprio camel</strong> 
 
+<strong>pedidos?: nosso paramêtro</strong> 
+
+<strong>noop=true: opção (busca os arquivos do diretório e não os apaga durante o processo)</strong> 
+
+<p align="justify">Todas as URIs seguem o mesmo template: <b>componente:parametros?opções</b>. O primeiro elemente vai ser o responsável de referência o componente o qual estamos usando para podermos ler os dados na entrada da rota, e com base nas especificaçoes dele, são definidos os parâmetros e as opções.</p>
 
 
 #### Componentes
